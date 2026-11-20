@@ -6,7 +6,7 @@ on:
         type: choice
         description: "配置文件//Configuration file"
         required: true
-        default: oneplus_15
+        default: oneplus_12r_b
         options:
           - oneplus_nord_n30_se_5g_v
           - oneplus_10r_v
@@ -92,7 +92,7 @@ on:
         type: string
         description: "动态清单仓库所有者//Manifest repository owner"
         required: true
-        default: "Numbersf"
+        default: "KernelSU-Next/KernelSU-Next"
       BUILD_TIME:
         type: string
         description: "自定义构建时间(输入F使用UTCT或-1关闭)//Custom build time (Enter F to use UTCT, or -1 to disable)"
@@ -102,7 +102,7 @@ on:
         type: string
         description: "管理器分支名(必填)/内置分支名(必填)/自定义版本标识(留空不修改)/回退分支提交哈希版本(留空不修改)//Manager Branch name (Required) / Builtin branch name (Required) / Custom version identifier (Leave blank to not modify) / Rollback branch commit hash version (Leave blank to not modify)"
         required: false
-        default: "main/builtin-new/Numbersf/"
+        default: "dev/dev/"
       LZ4_UPDATE:
         type: boolean
         description: "是否升级LZ4到上游最新？//Upgrade LZ4 to the latest upstream?"
